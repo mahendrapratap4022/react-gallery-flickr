@@ -1,0 +1,61 @@
+{
+  "name": "gallery-app",
+  "version": "1.0.0",
+  "description": "React gallery + webpack + babel + test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "npm test -- --watch",
+    "start": "webpack-dev-server",
+    "prod": "cross-env NODE_ENV=production webpack-dev-server --env.prod=true",
+    "build": "cross-env NODE_ENV=production webpack --env.prod=true",
+    "lint": "eslint ./src ./webpack.config.js -f table || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenisDiaz/react-gallery.git"
+  },
+  "author": "Genís Díaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GenisDiaz/react-gallery/issues"
+  },
+  "homepage": "https://github.com/GenisDiaz/react-gallery#readme",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "babel-runtime": "^6.23.0",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.16.0",
+    "file-loader": "^0.10.0",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-fontawesome": "^1.5.0",
+    "react-redux": "^5.0.2",
+    "react-router": "^2.4.0",
+    "react-router-redux": "^4.0.4",
+    "react-transform-catch-errors": "^1.0.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^19.0.0",
+    "jest": "^19.0.2",
+    "jest-fetch-mock": "^1.0.8",
+    "nock": "^9.0.8",
+    "redux-mock-store": "^1.2.2"
+  }
+}

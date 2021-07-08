@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
+
+body {
+  background: #fafafa;
+  font-family: 'Lato', sans-serif !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.logo-title {
+  text-align: center;
+  padding: 18px 0;
+  background: gainsboro;
+  margin: 23px 0;
+}
+.logo-title a {
+  font-weight: 300;
+}
+
+.block-photo {
+  margin: 0 2rem 2rem 2rem;
+  padding: 2rem;
+  border: 1px solid lightgray;
+  background: white;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03);
+  position: relative;
+  min-height: 347px;
+}
+.block-photo:hover {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.block-photo .block-photo-img {
+  position: relative;
+}
+.block-photo .block-photo-img .block-photo-caption {
+  display: none;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 77%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 77%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTrans.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+.block-photo:hover .block-photo-img .block-photo-caption {
+  display: block;
+}
+.block-photo img {
+  width: 100%;
+  display: block;
+  height: 251px;
+}
+.block-photo .block-photo-author {
+  margin: 10px 0 0 0;
+}
+.padding-bottom-20p {
+  padding-bottom: 20px;
+}
+
+.block-single-photo {
+  margin: 0 2rem 2rem 2rem;
+  padding: 2rem;
+  border: 1px solid lightgray;
+  background: white;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03);
+  position: relative;
+}
+
+.block-single-photo img {
+  width: 100%;
+  display: block;
+}
+
+.block-single-photo .block-single-photo-info h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.block-single-photo .block-single-photo-info h2 {
+  margin: 5px 0;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.block-single-photo .block-single-photo-info h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.block-comments {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+.block-comment h4 {
+  font-size: 1rem;
+}
+/* Style the search field */
+.search-form input[type='text'] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.search-form button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+.search-form::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.search-form {
+  margin-bottom: 20px;
+}
+label {
+  margin: 15px;
+  display: block;
+}
+select {
+  margin: 10px;
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.btn-default {
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
