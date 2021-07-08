@@ -7,8 +7,8 @@ There are a couple of features I have added like
 
 - Search photo
 - Sort by category
-- pagination with the button load more
-- detail page
+- Pagination
+- Detail page
 
 ## Dependencies
 
